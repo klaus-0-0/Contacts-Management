@@ -1,5 +1,5 @@
 const config = {
-    apiurl: "http://localhost:3000/api"
+    apiurl: "https://contacts-management-backend-yq4o.onrender.com/api"
 }
 
 export default config;
