@@ -8,7 +8,10 @@ dotenv.config({path: "../.env"});
 
 const app = express();
  
-app.use(cors());
+app.use(cors({
+ origin: "https://contacts-management-ecc4.onrender.com",
+ credintials: true
+}));
 app.use(express.json());
 app.use("/api", contactRoutes); 
 
